@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Home from './components/Home'
+import { Route, Routes } from 'react-router-dom'
+import Loginform from './components/Loginform'
+import SinglePage from './components/SinglePage'
+import SinglePage2 from './components/SinglePage2'
+import SinglePage3 from './components/SinglePage3'
+import SinglePage4 from './components/SinglePage4'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route path='' element={<Home/>} />
+        <Route path='/userlogin' element={<Loginform/>}/>
+        <Route path='/re-order' element={<SinglePage/>}/>
+        <Route path='about-us' element={<SinglePage2/>} />
+        <Route path='terms-&-conditions' element={<SinglePage3/>}/>
+        <Route path='re-order-history' element={<SinglePage4/>}/>
+      </Routes>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+

@@ -1,0 +1,93 @@
+.kfctext{
+    color: red;
+    
+}
+.navdelivr{
+    border: 2px solid red;
+    margin: 10px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 5px;
+    
+}
+.navpick{
+    margin: 10px;
+    padding: 0px 20px 0px 20px;
+    
+    
+}
+
+
+.btn1{
+    text-align:center ;
+}
+.img1{
+    width: 180px;
+}
+.card1{
+    margin: 50px;
+    width: 230px;
+    align-items: center;
+background-color:ghostwhite;
+    border-radius: 600px 600px 30px 600px;
+
+}
+/* .orderbutton{
+    color: red;
+    background: #000;
+} */
+.head{
+    border-bottom: 4px solid red;
+    margin: 50px;
+    
+    width: 245px;
+}
+.cardtext{
+    display:flex;
+    justify-content: center;
+    border-bottom: 2px solid red;
+    width: 100px;
+}
+.head2{
+    border-bottom: 4px solid red;
+    margin: 50px;
+    width: 210px;
+}
+.cardimg2{
+    width: 280px;
+    border-radius: 5px;
+    background-color: ghostwhite;
+}
+.card3img{
+    width: 250px;
+}
+.head3{
+    border-bottom: 4px solid red;
+    margin: 55px;
+    width: 175px;
+}
+.img4{
+    height: 300px;
+    width: 500px;
+    border-radius: 5px;
+}
+.img5{
+    height: 300px;
+    width: 500px;
+    border-radius: 5px;
+
+}
+.about-btn{
+    margin: 10px;
+    padding: 0px 20px 0px 20px;
+}
+.redcard{
+    width: 500px;
+}
+.redcardtext{
+    color: aliceblue;
+    text-align: center;
+}
+.p2img4{
+    width: 400px;
+    height: 150px;
+}
